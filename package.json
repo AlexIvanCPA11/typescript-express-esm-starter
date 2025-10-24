@@ -1,0 +1,21 @@
+{
+  "name": "typescript-express-esm-starter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Alexandru Ivan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.4",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
