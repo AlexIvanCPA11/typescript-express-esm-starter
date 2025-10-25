@@ -6,7 +6,9 @@ export const get200 = async (
   next: NextFunction,
 ) => {
   try {
-    res.status(200).json({ status: "success", data: "sa va dau la muie" });
+    res
+      .status(200)
+      .json({ status: "success", data: "get request was a complete!" });
   } catch (err) {
     next(err);
   }
